@@ -10,8 +10,8 @@ import { DD_RUM, DD_LOGS } from "./DD_RUM";
 import { datadogRum } from "@datadog/browser-rum";
 import { datadogLogs } from "@datadog/browser-logs";
 
-/*DD_RUM();
-DD_LOGS() && datadogLogs.logger.setLevel("debug");*/
+DD_RUM();
+DD_LOGS() && datadogLogs.logger.setLevel("debug");
 
 DD_RUM &&
   datadogRum.setUser({

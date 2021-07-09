@@ -6,7 +6,7 @@ export const DD_RUM = () => {
     applicationId: 'bcbc0c95-f848-4037-b884-e03c487f93ca',
     clientToken: 'pube4e225caaa611546d5cea42895aafe80',
     site: 'datadoghq.com',
-    service:'rum_app1',
+    service:'testrum',
     env:'dev',
     version: "1.0.0",
     sampleRate: 100,
@@ -18,9 +18,9 @@ export const DD_RUM = () => {
 
 export const DD_LOGS = () => {
   return datadogLogs.init({
-    clientToken: "pube4e225caaa611546d5cea42895aafe80",
+    clientToken: 'pube4e225caaa611546d5cea42895aafe80',
     site: 'datadoghq.com',
-    service:'rum_app1',
+    service:'testrum',
     env:'dev',
     version: "1.0.0",
     sampleRate: 100,
